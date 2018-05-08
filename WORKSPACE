@@ -57,12 +57,16 @@ go_repository(
     name = "org_golang_x_net",
     importpath = "golang.org/x/net",
     commit = "b3c676e531a6dc479fa1b35ac961c13f5e2b4d2e",
+    vcs = "git",
+    remote = "https://github.com/golang/net.git",
 )
 
 go_repository(
     name = "org_golang_x_sys",
     importpath = "golang.org/x/sys",
     commit = "0dd5e194bbf5eb84a39666eb4c98a4d007e4203a",
+    vcs = "git",
+    remote = "https://github.com/golang/sys.git",
 )
 
 go_repository(
